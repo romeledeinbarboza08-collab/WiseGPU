@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Pixi simplificado para tamaños chicos. Las formas siguen una grilla de 4 unidades
+       (= 1 px a 16x16) para que los ojos se vean nítidos incluso en la pestaña. -->
+  <rect width="64" height="64" rx="12" fill="#1B2130" />
+  <!-- 3 pines gruesos por lado -->
+  <path d="M16 2h8v8h-8zM28 2h8v8h-8zM40 2h8v8h-8zM16 54h8v8h-8zM28 54h8v8h-8zM40 54h8v8h-8zM2 16h8v8H2zM2 28h8v8H2zM2 40h8v8H2zM54 16h8v8h-8zM54 28h8v8h-8zM54 40h8v8h-8z"
+        fill="#E0552B" />
+  <!-- chip y núcleo -->
+  <rect x="8" y="8" width="48" height="48" rx="8" fill="#E0552B" />
+  <rect x="16" y="16" width="32" height="32" rx="6" fill="#1B2130" />
+  <!-- ojos blancos grandes con pupila oscura -->
+  <rect x="20" y="24" width="8" height="14" rx="4" fill="#FFFFFF" />
+  <rect x="36" y="24" width="8" height="14" rx="4" fill="#FFFFFF" />
+  <rect x="24" y="28" width="4" height="6" rx="2" fill="#1B2130" />
+  <rect x="40" y="28" width="4" height="6" rx="2" fill="#1B2130" />
+  <!-- sonrisa: se ve desde 32 px -->
+  <path d="M28 41q4 3 8 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+</svg>
