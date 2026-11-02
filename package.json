@@ -1,0 +1,19 @@
+{
+  "name": "comparador-gpus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "netlify": "netlify dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.16.2",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0"
+  }
+}

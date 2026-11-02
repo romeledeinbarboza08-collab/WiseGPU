@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+# Para `netlify dev`: levanta Vite y le suma las funciones en el puerto 8888.
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
+  port = 8888
+
+# El navegador llama a /api/extraer y Netlify lo manda a la función extraer.js.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200

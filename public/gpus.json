@@ -1,0 +1,102 @@
+[
+  {
+    "id": "rtx-5090",
+    "nombre": "GeForce RTX 5090",
+    "marca": "NVIDIA",
+    "alias": ["rtx 5090", "5090", "rtx5090"],
+    "vram_gb": 32,
+    "tdp_w": 575,
+    "precio_salida_usd": 1999,
+    "fps": { "1080p": 203.8, "1440p": 175.5, "4k": 113.4 }
+  },
+  {
+    "id": "rtx-5080",
+    "nombre": "GeForce RTX 5080",
+    "marca": "NVIDIA",
+    "alias": ["rtx 5080", "5080", "rtx5080"],
+    "vram_gb": 16,
+    "tdp_w": 360,
+    "precio_salida_usd": 999,
+    "fps": { "1080p": 166.9, "1440p": 132.2, "4k": 77.8 }
+  },
+  {
+    "id": "rtx-5070-ti",
+    "nombre": "GeForce RTX 5070 Ti",
+    "marca": "NVIDIA",
+    "alias": ["rtx 5070 ti", "5070 ti", "5070ti", "rtx5070ti"],
+    "vram_gb": 16,
+    "tdp_w": 300,
+    "precio_salida_usd": 749,
+    "fps": { "1080p": 155.4, "1440p": 119.2, "4k": 68.4 }
+  },
+  {
+    "id": "rtx-5070",
+    "nombre": "GeForce RTX 5070",
+    "marca": "NVIDIA",
+    "alias": ["rtx 5070", "5070", "rtx5070"],
+    "vram_gb": 12,
+    "tdp_w": 250,
+    "precio_salida_usd": 549,
+    "fps": { "1080p": 132.6, "1440p": 96.5, "4k": 53.4 }
+  },
+  {
+    "id": "rtx-5060-ti-16gb",
+    "nombre": "GeForce RTX 5060 Ti 16GB",
+    "marca": "NVIDIA",
+    "alias": ["rtx 5060 ti", "5060 ti", "5060ti", "rtx5060ti", "5060 ti 16gb"],
+    "vram_gb": 16,
+    "tdp_w": 180,
+    "precio_salida_usd": 429,
+    "fps": { "1080p": 106.5, "1440p": 73.0, "4k": 40.2 }
+  },
+  {
+    "id": "rx-9070-xt",
+    "nombre": "Radeon RX 9070 XT",
+    "marca": "AMD",
+    "alias": ["rx 9070 xt", "9070 xt", "9070xt", "rx9070xt"],
+    "vram_gb": 16,
+    "tdp_w": 304,
+    "precio_salida_usd": 599,
+    "fps": { "1080p": 156.6, "1440p": 115.6, "4k": 64.6 }
+  },
+  {
+    "id": "rx-9070",
+    "nombre": "Radeon RX 9070",
+    "marca": "AMD",
+    "alias": ["rx 9070", "9070", "rx9070"],
+    "vram_gb": 16,
+    "tdp_w": 220,
+    "precio_salida_usd": 549,
+    "fps": { "1080p": 140.9, "1440p": 102.9, "4k": 56.6 }
+  },
+  {
+    "id": "rx-9060-xt-16gb",
+    "nombre": "Radeon RX 9060 XT 16GB",
+    "marca": "AMD",
+    "alias": ["rx 9060 xt", "9060 xt", "9060xt", "rx9060xt", "9060 xt 16gb"],
+    "vram_gb": 16,
+    "tdp_w": 160,
+    "precio_salida_usd": 349,
+    "fps": { "1080p": 101.2, "1440p": 68.2, "4k": 35.2 }
+  },
+  {
+    "id": "arc-b580",
+    "nombre": "Arc B580",
+    "marca": "Intel",
+    "alias": ["arc b580", "b580", "arcb580"],
+    "vram_gb": 12,
+    "tdp_w": 190,
+    "precio_salida_usd": 249,
+    "fps": { "1080p": 70.3, "1440p": 49.4, "4k": 27.6 }
+  },
+  {
+    "id": "arc-a770-16gb",
+    "nombre": "Arc A770 16GB",
+    "marca": "Intel",
+    "alias": ["arc a770", "a770", "arca770", "a770 16gb"],
+    "vram_gb": 16,
+    "tdp_w": 225,
+    "precio_salida_usd": 349,
+    "fps": { "1080p": 67.1, "1440p": 45.3, "4k": 23.4 }
+  }
+]

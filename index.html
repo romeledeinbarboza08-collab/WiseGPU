@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WiseGPU — Compare smarter.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <!-- Sidebar oscuro: logo, GPUs disponibles y resolución. En móvil se abre con un botón. -->
+      <aside id="sidebar" class="sidebar" aria-label="GPUs disponibles">
+        <div class="sidebar-cabecera">
+          <div class="logo">
+            <span id="logo-pixi"></span>
+            <div>
+              <p class="wordmark">Wise<span>GPU</span></p>
+              <p class="tagline">Compare smarter.</p>
+            </div>
+          </div>
+          <button id="cerrar-panel" class="boton-icono solo-movil" type="button" aria-label="Cerrar panel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sidebar-lista">
+          <h2 class="etiqueta">GPUs disponibles</h2>
+          <p class="sidebar-nota">Tocá una para sumarla al mensaje.</p>
+          <div id="lista-gpus"></div>
+        </div>
+
+        <div class="sidebar-pie">
+          <span class="etiqueta">Resolución</span>
+          <div id="resoluciones" class="segmentos" role="group" aria-label="Resolución">
+            <button type="button" data-res="1080p">1080p</button>
+            <button type="button" data-res="1440p" aria-pressed="true">1440p</button>
+            <button type="button" data-res="4k">4K</button>
+          </div>
+          <p class="sidebar-nota">Raster, promedio de 15 juegos.</p>
+        </div>
+      </aside>
+
+      <div id="fondo-panel" class="fondo-panel"></div>
+
+      <!-- Chat a toda la altura, con el input fijo abajo. -->
+      <main class="chat">
+        <header class="chat-barra">
+          <button id="abrir-panel" class="boton-panel solo-movil" type="button" aria-controls="sidebar">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+            GPUs
+          </button>
+          <h1 class="wordmark chat-titulo solo-movil">Wise<span>GPU</span></h1>
+          <p class="chat-subtitulo">Escribí dos tarjetas y te muestro cuál rinde más por tu plata.</p>
+          <p id="estado" class="estado">Cargando base…</p>
+        </header>
+
+        <div id="mensajes" class="mensajes" aria-live="polite"></div>
+
+        <form id="formulario" class="entrada">
+          <input
+            id="texto"
+            type="text"
+            maxlength="300"
+            autocomplete="off"
+            placeholder="Ej: compará la RTX 5070 con la RX 9070 XT"
+            aria-label="Mensaje"
+          />
+          <button id="enviar" type="submit">Enviar</button>
+        </form>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
